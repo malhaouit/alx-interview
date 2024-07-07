@@ -15,12 +15,6 @@ Best regards,
 **Abdelmounaim Malhaoui**
 
 ## Introduction
-
-
-
-
-### For this project
-
 For this project, we will need a solid understanding of several key concepts in order to develop a solution that can efficiently determine if all boxes can be opened.  
 
 Here's a list of concepts that will be instrumental  in tackling this project:  
