@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """This module provides a function to determine if all locked boxescan be
 opened.
 Each box may contain keys to other boxes. The first box is always unlocked.
