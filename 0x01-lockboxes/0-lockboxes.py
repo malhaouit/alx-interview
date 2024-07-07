@@ -28,9 +28,7 @@ def canUnlockAll(boxes):
     all_keys = set()
     opened_boxes = set()
     opened_boxes.add(0)
-
-    for key in boxes[0]:
-        all_keys.add(key)
+    all_keys.update(boxes[0])
 
     while len(all_keys) != 0:
         new_keys = all_keys.copy()
@@ -39,8 +37,7 @@ def canUnlockAll(boxes):
         for key in new_keys:
             if key < len(boxes) and key not in opened_boxes:
                 opened_boxes.add(key)
-                for each_key in boxes[key]:
-                    all_keys.add(each_key)
+                all_keys.update(boxes[key])
 
     if len(opened_boxes) == len(boxes):
         return True
