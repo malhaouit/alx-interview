@@ -3,7 +3,7 @@
 ## About Me
 Hello! I'm a recent graduate from [ALX Africa](https://www.alxafrica.com/), a school that offers comprehensive software engineering programs. Through my education at ALX Africa, I've gained substantial knowledge and hands-on experience in various aspects of software development.
 
-Please note that I am not permitted to share specific resources, examples, or proprietary information from ALX Africa. However, I am excited to share my personal projects and the solutions I've developed. While this summary may not cover every detail, it should provide you with a solid understanding of my work and the code I've written. I encourage you to explore, learn, and use these resources freely.
+Please note that I am not permitted to share specific resources, tasks detail, examples, or proprietary information from ALX Africa. However, I am excited to share my personal projects and the solutions I've developed. While this summary may not cover every detail, it should provide you with a solid understanding of my work and the code I've written. I encourage you to explore, learn, and use these resources freely.
 
 Feel free to connect with me on my professional networks:
 - [LinkedIn](https://www.linkedin.com/in/abdelmounaim-malhaoui/)  
@@ -36,3 +36,10 @@ Here's a list of concepts that will be instrumental  in tackling this project:
 - The file must be executable
 
 ## Task: Lockboxes
+
+You have `n` number of locked boxes in front of you. Each box is numbered sequentially from `0` to `n - 1` and each box may contain keys to the other boxes.  
+
+Write a method that determines if all the boxes can be opened.  
+
+[File](0-lockboxes.py)
+
