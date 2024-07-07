@@ -11,7 +11,6 @@ Feel free to connect with me on my professional networks:
 
 Thank you for visiting my GitHub, and I hope you find my projects insightful and helpful.
 
-Best regards,  
 **Abdelmounaim Malhaoui**
 
 ## Introduction
@@ -27,13 +26,13 @@ Here's a list of concepts that will be instrumental  in tackling this project:
 
 ## Requirements
 
-- Allowed editors: vi, vim, emacs
-- The file will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.4.3)
+- Allowed editors: `vi`, `vim`, `emacs`
+- The file will be interpreted/compiled on Ubuntu 20.04 LTS using `python3` (version 3.4.3)
 - The file should end with a new line
-- The first line of the file should be exactly #!/usr/bin/python3
-- A README.md file, at the root of the folder of the project, is mandatory
+- The first line of the file should be exactly `#!/usr/bin/python3`
+- A `README.md` file, at the root of the folder of the project, is mandatory
 - The code should be documented
-- The code should use the PEP 8 style (version 1.7.x)
+- The code should use the `PEP 8` style (version 1.7.x)
 - The file must be executable
 
 ## Task: Lockboxes
