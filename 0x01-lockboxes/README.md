@@ -4,7 +4,7 @@
 
 Hello! I'm a recent graduate from [ALX Africa](https://www.alxafrica.com/), a school that offers comprehensive software engineering programs. Through my education at ALX Africa, I've gained substantial knowledge and hands-on experience in various aspects of software development.  
 
-I am excited to share my personal projects and the solutions I've developed. While this summary may not cover every detail, it should provide you with a solid understanding of my work and the code I've written. I encourage you to explore, learn, and use these resources freely.
+I am excited to share my personal projects and the solutions I've developed. While this summary may not cover every detail, it should provide you with a solid understanding of my work and the code I've written.
 
 Feel free to connect with me on my professional networks:  
 - [LinkedIn](https://www.linkedin.com/in/abdelmounaim-malhaoui/)
