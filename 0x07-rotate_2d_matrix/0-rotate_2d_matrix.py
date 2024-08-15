@@ -5,7 +5,7 @@ This module covers the implementation of Rotate 2D Matrix
 from typing import List
 
 
-def rotate_2d_matrix(matrix: List[List]) -> List[List]:
+def rotate_2d_matrix(matrix: List[List]) -> None:
     """
     Rotate a 2D Matrix 90 degrees clockwise
     """
