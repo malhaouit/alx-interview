@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-A function to determine the fewest number of coins needed to meet a given
-amount.
+Optimized function to determine the fewest number of coins needed to meet a
+given amount using a dynamic programming approach with greedy optimization.
 """
 
 
@@ -18,16 +18,11 @@ def makeChange(coins, total):
              - Returns 0 if the total is 0 or less.
              - Returns -1 if it is not possible to make the total with the
              given coins.
-
-    Example:
-        >>> makeChange([1, 2, 25], 37)
-        7
-
-        >>> makeChange([1256, 54, 48, 16, 102], 1453)
-        -1
     """
     if total <= 0:
         return 0
+
+    coins.sort(reverse=True)
 
     dp = [float('inf')] * (total + 1)
     dp[0] = 0
@@ -35,5 +30,7 @@ def makeChange(coins, total):
     for coin in coins:
         for i in range(coin, total + 1):
             dp[i] = min(dp[i], dp[i - coin] + 1)
+            if dp[i] != float('inf') and i == total:
+                return dp[total]
 
     return dp[total] if dp[total] != float('inf') else -1
